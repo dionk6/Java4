@@ -75,32 +75,47 @@ button{
 }
 
 .menu1 {
-    flex-basis: 200px;
-    height: 250px;
+    flex-basis: 250px;
+    height: 180px;
     margin: 10px;
     text-align: center;
+}
+
+.menu1:hover {
+    border: 1px solid black;
+    border-radius: 40px;
 }
 
 .menu2 {    
-    flex-basis: 200px;
-    height: 250px;
+    flex-basis: 250px;
+    height: 180px;
     margin: 10px;
     text-align: center;
 }
+.menu2:hover {
+    border: 1px solid black;
+    border-radius: 40px;
+}
 
 .menu3{
-    flex-basis: 200px;
-    height: 250px;
+    flex-basis: 250px;
+    height: 180px;
     margin: 10px;
     text-align: center;
     padding-top: 5px;
+}
+
+.menu3:hover {
+    border: 1px solid black;
+    border-radius: 40px;
 }
 
 .bottom {
     height: 30%;
     background-color: blue;
     background-image: linear-gradient(rgba(38,54,141,0.6), rgba(38,54,141,0.6)), url("photo.jpg");
-    
+    background-repeat: no-repeat;
+    background-size: 100%;   
 }
 
 .bottomicon {
@@ -111,4 +126,137 @@ button{
     height: 70%;
     text-align: center;
     color: white;
+}
+
+.thirdcontainer {
+    width: 100vw;
+    height: 100vh;
+}
+
+.upperthird {
+    height: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.firstitem{
+    flex-basis: 250px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.seconditem {
+    flex-basis: 250px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.thirditem {
+    flex-basis: 250px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.fourthitem {
+    flex-basis: 250px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.bottomthird {
+    height: 60%;
+    background-color: #f7f7f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottomfirst {
+    flex-basis: 20%;
+    height: 75%;
+    margin: 40px;
+
+}
+
+.bottomsecond {
+    flex-basis: 20%;
+    height: 75%;
+    margin: 40px;
+}
+
+ul {
+    padding-top: 40px;
+    padding-left: 17px;
+}
+
+li {
+    color: gray;
+}
+.learnbutton {
+    width: 110px;
+    background-color: #7668f8;
+}
+
+.fourthcontainer {
+    width: 100vw;
+    height: 100vh;
+}
+
+.upperfourth {
+    height: 65%;
+
+}
+
+.bottomfourth {
+    height: 35%;
+    background-color: darkblue;
+}
+
+.upperfourthtext {
+    height: 30%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.upperhumans {
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} 
+
+.human1{
+    flex-basis: 15%;
+    height: 70%;
+    text-align: center;
+}
+.human2{
+    flex-basis: 15%;
+    height: 70%;
+    text-align: center;
+}
+.human3{
+    flex-basis: 15%;
+    height: 70%;
+    text-align: center;
+}
+.human4{
+    flex-basis: 15%;
+    height: 70%;
+    text-align: center;
+}
+
+i {
+    color: #3043af;
 }
