@@ -7,7 +7,7 @@
 .firstcontainer {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(38,54,141,0.6), rgba(38,54,141,0.6)), url("photo.jpg");
+    background-image: linear-gradient(rgba(38,54,141,0.8), rgba(38,54,141,0.8)), url("photo.jpg");
     background-size: 100% 100%;
 }
 
@@ -113,7 +113,7 @@ button{
 .bottom {
     height: 30%;
     background-color: blue;
-    background-image: linear-gradient(rgba(38,54,141,0.6), rgba(38,54,141,0.6)), url("photo.jpg");
+    background-image: linear-gradient(rgba(38,54,141,0.8), rgba(38,54,141,0.8)), url("photo.jpg");
     background-repeat: no-repeat;
     background-size: 100%;   
 }
@@ -139,7 +139,7 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .firstitem{
@@ -214,13 +214,8 @@ li {
 }
 
 .upperfourth {
-    height: 60%;
+    height: 50%;
 
-}
-
-.bottomfourth {
-    height: 40%;
-    background-color: darkblue;
 }
 
 .upperfourthtext {
@@ -259,4 +254,134 @@ li {
 
 i {
     color: #3043af;
+}
+
+.bottomfourth {
+    height: 50%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-image: linear-gradient(rgba(38,54,141,0.8), rgba(38,54,141,0.8)), url("photo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;   
+}
+
+.bottomleft {
+    flex-basis: 25%;
+    height: 80%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.bottomright {
+    flex-basis: 30%;
+    height: 90%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.grafi1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+.shape {
+    border: 2px solid darkblue;
+    width: 70%;
+    margin: 0 auto;
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.ngjyra1{
+    width: 30%;
+    background-color: darkblue;
+}
+
+.ngjyra2{
+    width: 70%;
+    background-color: white;
+}
+
+.ngjyra3 {
+    width: 20%;
+    background-color: darkblue;
+}
+
+.ngjyra4{
+    width: 80%;
+    background-color: white;
+}
+
+.ngjyra5{
+    width: 50%;
+    background-color: darkblue;
+}
+.ngjyra6{
+    width: 50%;
+    background-color: white;
+}
+
+.lart {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.lartLeft {
+    width: 50%;
+    margin-right: 10px;
+}
+.lartRight {
+    width: 50%;
+}
+.lartLart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mes {
+    padding-top: 7%;
+    padding-left: 10px;
+    color: white;
+    text-align: left;
+}
+
+.posht {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.poshtmajte {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.poshtdjathte{
+    width: 50%;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 10px;
+    color: white;
+}
+a {
+    color: white;
+}
+
+a:hover {
+    color: black;
 }
